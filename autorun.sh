@@ -1,1 +1,2 @@
-gunicorn -w 2 -c /home/Projects/URV_DetectWorkType/guicorn.py guicorn:app
+cd /home/Projects/URV_DetectWorkType
+gunicorn -w 2 -c guicorn.py guicorn:app
